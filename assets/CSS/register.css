@@ -1,0 +1,9 @@
+/* Gaya untuk tombol kembali */
+.btn-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 1.5rem;
+  color: #000; /* Warna yang diinginkan */
+  text-decoration: none;
+}

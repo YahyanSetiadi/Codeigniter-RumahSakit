@@ -1,0 +1,159 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* link[rel='icon'] {
+  width: 500px;
+  height: 500px;
+} */
+
+/* navbar */
+.navbar .navbar-nav a:hover {
+	color: #00cba9;
+}
+.navbar .navbar-nav a::after {
+	content: "";
+	display: block;
+	padding-bottom: 0.5rem;
+	border-bottom: 0.1rem solid #00cba9;
+	transform: scaleX(0);
+	transition: 0.2s linear;
+}
+.navbar .navbar-nav a:hover::after {
+	transform: scaleX(0.5);
+}
+
+.zen {
+	margin-left: 50px;
+}
+.navbar-nav li {
+	margin-right: 10px;
+}
+
+/* hero */
+.hero-container {
+	margin: 9rem 5rem 7rem 0;
+	/* background-color: #bbdef7; */
+}
+/* .card-body {
+  padding: 6rem;
+} */
+
+/* service */
+a {
+	text-decoration: none;
+}
+.decryption {
+	color: #00cba9;
+}
+
+a:hover {
+	color: #60b5f2;
+}
+
+/* Contact Section */
+.contact {
+	/* background-color: #00cba9; */
+	padding: 7rem 7% 1.4rem;
+	margin-top: 0.3rem;
+}
+
+.contact h2,
+.contact p {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.contact h2 span {
+	color: #00cba9;
+}
+
+.contact .row {
+	display: flex;
+	margin-top: 2rem;
+}
+
+.map-container {
+	flex: 1;
+}
+
+.map {
+	width: 100%;
+	height: 100%;
+}
+
+.contact-form {
+	flex: 1;
+	padding: 3rem 1rem;
+	text-align: center;
+}
+
+.contact-form .input-group {
+	display: flex;
+	align-items: center;
+	margin-top: 1rem;
+	background-color: #a2d9ff;
+	border: 1px solid #eee;
+	padding: 0.5rem;
+}
+
+.contact-form .input-group input {
+	flex: 1;
+	padding: 1rem;
+	font-size: 1rem;
+	background: none;
+	color: #fff;
+	border: none;
+	outline: none;
+}
+
+.contact-form .btn {
+	margin-top: 1rem;
+	padding: 0.8rem 1.5rem;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #00cba9;
+	cursor: pointer;
+}
+
+/* Footer*/
+footer {
+	background-color: #00cba9;
+	text-align: center;
+	padding: 1rem 0 3rem;
+	margin-top: 3rem;
+}
+
+footer .socials {
+	padding: 1rem 0;
+}
+
+footer .socials a {
+	color: #fff;
+	margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+	color: #a2d9ff;
+}
+
+footer .links {
+	margin-bottom: 1.4rem;
+}
+
+footer .links a {
+	color: #fff;
+	padding: 0.3rem 0.5rem;
+	text-decoration: none;
+}
+
+footer .credit {
+	font-size: 0.8rem;
+}
+
+footer .credit a {
+	color: black;
+	font-weight: 700;
+}

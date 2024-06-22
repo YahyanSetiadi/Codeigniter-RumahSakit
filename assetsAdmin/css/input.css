@@ -1,0 +1,19 @@
+.card {
+  margin: 3rem 0 0 20rem;
+  width: 35rem;
+  height: 30rem;
+  border-radius: 10px;
+}
+
+form {
+  margin-top: 3rem;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.button-container a.btn {
+  margin: 0 1rem;
+}

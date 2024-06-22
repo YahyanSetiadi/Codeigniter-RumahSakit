@@ -1,0 +1,42 @@
+.card {
+  margin: 3rem 0 0 20rem;
+  width: 35rem;
+  height: 30rem;
+  border-radius: 10px;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.button-container a.btn {
+  margin: 0 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.d-flex {
+  display: flex;
+  align-items: flex-start;
+}
+
+.fa-lg {
+  font-size: 1.33333em; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+  margin-right: 0.5rem; /* Sesuaikan jarak antara ikon dan teks */
+}
+
+.form-outline {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .label-text {
+  margin-right: 5rem;
+} */
