@@ -258,6 +258,7 @@ class RumahSakit extends CI_Controller {
                     'nama_pasien' => $patient_data['nama_pasien'],
                     'email' => $patient_data['email'],
                     'alamat' => $patient_data['alamat'],
+                    'jam'   => $this->input->post('jam'),
                     'tanggal' => $this->input->post('tanggal'),
                     'poli' => $this->input->post('poli')
                 );
@@ -314,6 +315,7 @@ class RumahSakit extends CI_Controller {
         $nama_pasien = $this->input->post('nama_pasien');
         $email = $this->input->post('email');
         $alamat = $this->input->post('alamat');
+        $jam = $this->input->post('jam');
         $tanggal = $this->input->post('tanggal');
         $poli = $this->input->post('poli');
     
@@ -329,6 +331,7 @@ class RumahSakit extends CI_Controller {
             'nama_pasien' => $nama_pasien,
             'email' => $email,
             'alamat' => $alamat,
+            'jam' => $jam,
             'tanggal' => $tanggal,
             'poli' => $poli
         );

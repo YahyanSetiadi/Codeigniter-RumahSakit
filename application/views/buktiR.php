@@ -97,11 +97,11 @@
     </div>
     <hr class="thick">
     <div class="content">
-      <h4 class="text-center">Bukti Pendaftaran Online</h4>
+      <h4 class="text-center">Proof of Online Registration</h4>
       <table class="table table-borderless mt-3">
         <tbody>
           <tr>
-            <th scope="row">No Bukti</th>
+            <th scope="row">No</th>
             <td>:</td>
             <td><?php echo $pasien['id']; ?></td>
           </tr>
@@ -111,7 +111,7 @@
             <td><?php echo $pasien['NIK']; ?></td>
           </tr>
           <tr>
-            <th scope="row">Nama Pasien</th>
+            <th scope="row">Patient Date</th>
             <td>:</td>
             <td><?php echo $pasien['nama_pasien']; ?></td>
           </tr>
@@ -121,17 +121,22 @@
             <td><?php echo $pasien['email']; ?></td>
           </tr>
           <tr>
-            <th scope="row">Alamat</th>
+            <th scope="row">Address</th>
             <td>:</td>
             <td><?php echo $pasien['alamat']; ?></td>
           </tr>
           <tr>
-            <th scope="row">Tanggal</th>
+            <th scope="row">Time</th>
+            <td>:</td>
+            <td><?php echo $pasien['jam']; ?></td>
+          </tr>
+          <tr>
+            <th scope="row">Date Reservation</th>
             <td>:</td>
             <td><?php echo $pasien['tanggal']; ?></td>
           </tr>
           <tr>
-            <th scope="row">Poli</th>
+            <th scope="row">Poly Clinic</th>
             <td>:</td>
             <td><?php echo $pasien['poli']; ?></td>
           </tr>

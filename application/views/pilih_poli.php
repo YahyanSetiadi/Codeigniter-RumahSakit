@@ -38,8 +38,25 @@
                 </div>
               </div>
             </div>
+            
+            <!-- jam -->
+            <div class="mb-4">
+              <div class="d-flex flex-row align-items-center"> 
+                <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                <div class="form-outline flex-fill mb-0">
+                  <select name="jam" id="jam" class="form-control w-100 text-start" required>
+                    <option value="0" class="text-start">Select Time</option>
+                    <option value="08.00 WIB - Finish">08.00 WIB - Finish</option>
+                    <option value="14.00 WIB - Finish">14.00 WIB - Finish</option>
+                    <option value="15.00 WIB - Finish">15.00 WIB - Finish</option>
+                    <option value="19.00 WIB - Finish">19.00 WIB - Finish</option>
+                    <option value="16.00 WIB - Finish">16.00 WIB - Finish</option>
+                  </select>
+                </div>
+              </div>
+            </div>
 
-            <!-- Pilih Poli -->
+            <!-- pilih poli -->
             <div class="mb-4">
               <div class="d-flex flex-row align-items-center"> 
                 <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>

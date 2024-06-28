@@ -4,6 +4,7 @@
   $nama_pasien = isset($pasien['nama_pasien']) ? $pasien['nama_pasien'] : 'N/A';
   $email = isset($pasien['email']) ? $pasien['email'] : 'N/A';
   $alamat = isset($pasien['alamat']) ? $pasien['alamat'] : 'N/A';
+  $jam = isset($pasien['jam']) ? $pasien['jam'] : 'N/A';
   $tanggal = isset($pasien['tanggal']) ? $pasien['tanggal'] : 'N/A';
   $poli = isset($pasien['poli']) ? $pasien['poli'] : 'N/A';
 ?>
@@ -106,11 +107,11 @@
     <hr class="thick">
     <hr class="thick">
     <div class="content">
-      <h4 class="text-center">Bukti Pendaftaran Online</h4>
+      <h4 class="text-center">Proof of Online Registration</h4>
       <table class="table table-borderless mt-3">
         <tbody>
           <tr>
-            <th scope="row">No Bukti</th>
+            <th scope="row">No</th>
             <td>:</td>
             <td><?php echo $no_bukti; ?></td>
           </tr>
@@ -120,7 +121,7 @@
             <td><?php echo $nik; ?></td>
           </tr> -->
           <tr>
-            <th scope="row">Nama Pasien</th>
+            <th scope="row">Patient Name</th>
             <td>:</td>
             <td><?php echo $nama_pasien; ?></td>
           </tr>
@@ -130,17 +131,22 @@
             <td><?php echo $email; ?></td>
           </tr>
           <tr>
-            <th scope="row">Alamat</th>
+            <th scope="row">Address</th>
             <td>:</td>
             <td><?php echo $alamat; ?></td>
           </tr>
           <tr>
-            <th scope="row">Tanggal</th>
+            <th scope="row">Time</th>
+            <td>:</td>
+            <td><?php echo $jam; ?></td>
+          </tr>
+          <tr>
+            <th scope="row">Date Reservation</th>
             <td>:</td>
             <td><?php echo $tanggal; ?></td>
           </tr>
           <tr>
-            <th scope="row">Poli</th>
+            <th scope="row">Poly Clinic</th>
             <td>:</td>
             <td><?php echo $poli; ?></td>
           </tr>

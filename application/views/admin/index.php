@@ -124,7 +124,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Patients</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $total_pasien; ?></div>
+                                            <div class="h5 mb-2 font-weight-bold text-gray-800"><?php echo $total_pasien; ?></div>
+                                            <a href="<?php echo base_url('Admin/laporanPasien') ?>" style="text-decoration: none;">Report</a>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -141,7 +142,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Register Patients</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $total_register; ?></div>
+                                            <div class="h5 mb-2 font-weight-bold text-gray-800"><?php echo $total_register; ?></div>
+                                            <a href="<?php echo base_url('Admin/laporanRegister') ?>" style="text-decoration: none;">Report</a>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -157,7 +159,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Medical Records</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $total_record; ?></div>
+                                            <div class="h5 mb-2 font-weight-bold text-gray-800"><?php echo $total_record; ?></div>
+                                            <a href="<?php echo base_url('Admin/laporanRecord') ?>" style="text-decoration: none;">Report</a>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-calendar fa-2x text-gray-300"></i>

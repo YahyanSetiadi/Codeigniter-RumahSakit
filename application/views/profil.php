@@ -66,11 +66,11 @@
                                 </div>
                                 <h6 class="f-w-600"><?php echo $nama; ?></h6>
                                 <br>
-                                <a href="<?php echo base_url('RumahSakit/profil_edit') ?>" style="color: #fff; text-decoration: none;"><i class="mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16">Edit</i></a>
+                                <a href="<?php echo base_url('RumahSakit/profil_edit') ?>" style="color: #fff; text-decoration: none;"><i class="mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16">Update</i></a>
                             </div>
                         </div>
                         <div class="col-sm-8">
-                            <h4 style="margin-top: 0.5rem"><i>My Profil</i></h4>
+                            <h4 style="margin-top: 0.5rem"><i>My Profile</i></h4>
                             <div class="card-block mt-2">
                                 <h6 class="m-b-20 p-b-5 b-b-default f-w-600">Information</h6>
                                 <div class="profile-row">

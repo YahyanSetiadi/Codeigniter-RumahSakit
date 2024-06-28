@@ -103,7 +103,7 @@
                     type="submit"
                     style="background-color: #00cba9; color: #fff;"
                 >
-                    Save Changes
+                    Update
                 </button>
             </div>
         </form>

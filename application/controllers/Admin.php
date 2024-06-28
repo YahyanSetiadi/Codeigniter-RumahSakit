@@ -9,6 +9,7 @@ class Admin extends CI_Controller {
         $this->load->model('Login_model');  
         $this->load->model('Pesan_models');  
         $this->load->model('Register_pasien'); 
+        $this->load->model('laporan_Admin');
         $this->load->library('form_validation'); 
         $this->load->library('session');
         $this->load->helper(array('form', 'url'));
@@ -275,7 +276,20 @@ class Admin extends CI_Controller {
         redirect('Admin/pesan');
     }
 
+    public function laporanPasien () {
+        $data['patients'] = $this->laporan_Admin->ambil_pasien();
+        $this->load->view('admin/laporanPasien', $data);
+    }
     
+    public function laporanRegister () {
+        $data['dataRegister'] = $this->laporan_Admin->ambil_register();
+        $this->load->view('admin/laporanRegister', $data);
+    }
+
+    public function laporanRecord() {
+        $data['records'] = $this->laporan_Admin->ambil_records();
+        $this->load->view('admin/laporanRecord', $data);
+    }
 
     
 }
